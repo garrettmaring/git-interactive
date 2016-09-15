@@ -1,0 +1,27 @@
+{
+  "name": "git-interactive",
+  "version": "0.1.0",
+  "description": "A (hopefully) growing collection of interactive git scripts.",
+  "main": "./lib/git-interactive.js",
+  "bin": "./bin/git-interactive.js",
+  "preferGlobal": "true",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sixsixteen/git-interactive.git"
+  },
+  "keywords": [
+    "git"
+  ],
+  "author": "Garrett Maring",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sixsixteen/git-interactive/issues"
+  },
+  "homepage": "https://github.com/sixsixteen/git-interactive#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "inquirer": "^1.1.3",
+    "shelljs": "^0.7.4"
+  }
+}
